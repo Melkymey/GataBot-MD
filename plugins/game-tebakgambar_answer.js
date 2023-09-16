@@ -26,7 +26,7 @@ export async function before(m) {
         } else if (similarity(m.text.toLowerCase(), json.jawaban.toLowerCase().trim()) >= threshold)
             m.reply(`*Dikit Lagi!*`)
         else
-            this.sendButton(m.chat, `*Salah!*`, author, null, [
+            this.sendButton(m.chat, `*Salah❌*`, author, null, [
                 ['hint', '/hint'],
                 ['nyerah', 'menyerah']
             ], m)
