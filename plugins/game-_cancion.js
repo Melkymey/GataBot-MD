@@ -5,7 +5,7 @@ async before(m) {
 let id = m.chat
 if (!m.quoted || !m.quoted.fromMe || !m.quoted.isBaileys || !/TEBAK JUDUL LAGUNYA/i.test(m.quoted.text)) return !0
 this.tebaklagu = this.tebaklagu ? this.tebaklagu : {}
-if (!(id in this.tebaklagu)) return m.reply('El juego ha terminado')
+if (!(id in this.tebaklagu)) return m.reply('Permainan sudah berakhir')
 if (m.quoted.id == this.tebaklagu[id][0].id) {
 let json = JSON.parse(JSON.stringify(this.tebaklagu[id][1]))
 if (m.text.toLowerCase() == json.jawaban.toLowerCase().trim()) {
