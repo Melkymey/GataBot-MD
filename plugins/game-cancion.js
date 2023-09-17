@@ -25,7 +25,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 };
 handler.help = ['tebaklagu'];
 handler.tags = ['game'];
-handler.command = /^cancion|canción$/i;
+handler.command = /^tebaklagu|canción$/i;
 export default handler;
 async function fetchJson(url, options) {
   try {
