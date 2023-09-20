@@ -16,7 +16,7 @@ message: {
 "audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "99569", "ptt": "true"   
 }}}  
 
-if (/^Asalamualaikum$/i.test(m.text)) {
+if (/^Asalamualaikum|asalamualaikum|Asalamualaikum$/i.test(m.text)) {
     
 conn.sendPresenceUpdate('recording', m.chat)    
 await conn.sendMessage(m.chat, {text: bot, mentions: [m.sender]}, {quoted: fkontak})
