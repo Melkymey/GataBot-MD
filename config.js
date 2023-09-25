@@ -115,7 +115,7 @@ global.author = "I LOVE YOU";
 global.vs = "1.4.9";
 global.vsJB = "2.0";
 
-global.gt = "Micharll";
+global.gt = "Michaell";
 global.yt = "https://www.youtube.com/@kerokero1205";
 global.yt2 = "https://www.youtube.com/@kerokero1205";
 global.ig = "https://www.instagram.com/kerokero2k";
