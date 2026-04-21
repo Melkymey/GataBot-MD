@@ -13,7 +13,7 @@ import { ar, en, es, id, pt } from './lib/idiomas/total-idiomas.js'
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-'5214531287294', 
+'6281245695410', 
 '593968263524',
 '5492916450307',
 '5215539356057'
@@ -147,7 +147,7 @@ global.exito = eg
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
 global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
-global.nomorown = '593993684821'
+global.nomorown = '6281245695410'
 global.pdoc = [
 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
