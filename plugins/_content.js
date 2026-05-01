@@ -144,7 +144,7 @@ global.canalIdGB = [
 '120363203805910750@newsletter',
 '120363302472386010@newsletter'
 ]
-global.canalNombreGB = ['INFINITY-WA 💫', 'GB - UPDATE 🐈', 'Tips sobre GataBot 🤩', 'NEW PROJECT: YartexBot-MD ✨']
+global.canalNombreGB = ['INFINITY-WA 💫', 'GB - UPDATE 🐈', 'Sayang ellBot 🤩', 'NEW PROJECT: ellBot-MD ✨']
 global.channelRD = await getRandomChannel()
 
 // Imágenes
